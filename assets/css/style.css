@@ -155,7 +155,7 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 775px) and (max-width: 1400px) {
+@media (min-width: 700px) and (max-width: 1400px) {
   .card {
     display: flex;
     flex-direction: row;
@@ -175,7 +175,8 @@ body {
 
   .card-body {
     justify-content: space-evenly;
-    gap: 2rem;
+    width: 60%;
+    gap: 2rem 3rem;
     padding: 1em 4em;
   }
 
