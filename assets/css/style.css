@@ -155,7 +155,7 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 700px) and (max-width: 1400px) {
+@media (min-width: 575px) and (max-width: 1400px) {
   .card {
     display: flex;
     flex-direction: row;
