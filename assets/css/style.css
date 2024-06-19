@@ -226,9 +226,7 @@ body {
     border-width: 20px 20px 0 20px;
     border-color: hsl(217, 19%, 35%) transparent transparent transparent;
   }
-}
 
-@media (max-width: 1400px) {
   .share .share-links {
     position: absolute;
     justify-content: flex-start;
@@ -237,14 +235,12 @@ body {
     background: var(--very-dark-grey-blue);
     z-index: 1;
   }
+}
 
+@media (max-width: 575px) {
   #share-btn {
     position: relative;
     z-index: 2;
     margin-top: -12px;
-  }
-
-  .share .share-links::after {
-    display: none;
   }
 }
