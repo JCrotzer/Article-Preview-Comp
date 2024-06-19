@@ -127,24 +127,6 @@ body {
   opacity: 0.2;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
-}
-
 .share .share-links p {
   color: white;
   letter-spacing: 0.5rem;
@@ -218,10 +200,6 @@ body {
     border-radius: 10px;
     z-index: 1;
   }
-
-  /* .share .share-links.show {
-    display: flex;
-  } */
 
   .share .share-links.active {
     visibility: visible;
